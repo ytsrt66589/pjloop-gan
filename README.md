@@ -50,7 +50,7 @@ Generate audio with our pre-trained model.
 	```loops_type``` can ```drum``` or ```synth```, ```config``` can be ```vgg``` or ```fusion```.
 	
 	For example, If you download the **drum fusion checkpoint**, then put it into the **checkpoint/drum/fusion** folder.  
-
+3. Go to [Pytorch VGGish][vggish] and replace the feature_networks/torchvggish. That is, torchvggish should be the same repo as [Pytorch VGGish][vggish].
 
 ### generate audio 
 * Generate one bar drum loop (```vgg```)
@@ -157,17 +157,19 @@ We use [MelGAN](https://github.com/descriptinc/melgan-neurips) as the vocoder. W
 
 ## References 
 
-The code comes heavily from the code below
+The code comes heavily from the below
 
 
 * [Official MelGAN repo][melgan] 
 * [LoopTest][looptest]
 * [Official Projected GAN repo][pggan]
+* [Pytorch VGGish][vggish]
+
 
 [melgan]: https://github.com/descriptinc/melgan-neurips
 [looptest]: https://github.com/allenhung1025/LoopTest
 [pggan]: https://github.com/autonomousvision/projected_gan
-
+[vggish]: https://github.com/harritaylor/torchvggish
 
 ## Citation
 If you find this repo useful, please kindly cite the following information.
