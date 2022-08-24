@@ -47,10 +47,10 @@ Generate audio with our pre-trained model.
 1. Download the pre-trained checkpoint above.
 2. Put your checkpoint into the checkpoint/```loops_type```/```config```
 	
-	```loops_type``` can ```drum``` or ```synth```, ```config``` can be ```vgg``` or ```fusion```.
+	```loops_type``` can be ```drum``` or ```synth```, ```config``` can be ```vgg``` or ```fusion```.
 	
 	For example, If you download the **drum fusion checkpoint**, then put it into the **checkpoint/drum/fusion** folder.  
-3. Go to [Pytorch VGGish][vggish] and replace the feature_networks/torchvggish. That is, torchvggish should be the same repo as [Pytorch VGGish][vggish].
+3. Go to [Pytorch VGGish][vggish] and replace the [feature_networks/torchvggish](./feature_networks/torchvggish/). That is, [feature_networks/torchvggish](./feature_networks/torchvggish/) should be the same repo as [Pytorch VGGish][vggish].
 
 ### generate audio 
 * Generate one bar drum loop (```vgg```)
