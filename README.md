@@ -4,7 +4,7 @@
 
 Authors: [Yen-Tung Yeh](https://arthurddd.github.io/), [Bo-Yu Chen](https://paulyuchen.com/), [Yi-Hsuan Yang](http://mac.citi.sinica.edu.tw/~yang/)
 
-* This repository contains code for ISMIR2022 paper **Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation**. 
+* This is the official repository contains code for ISMIR2022 paper **Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation**. (Pytorch)
 
 * We provide pre-trained models to generate drum loops and synth loops.
 
@@ -175,5 +175,10 @@ The code comes heavily from the below
 If you find this repo useful, please kindly cite the following information.
 
 ```
-
+@inproceedings{ arthur2022pjloopgan, 
+	title={Exploiting Pre-trained Feature Networks for Generative Adversarial Networks in Audio-domain Loop Generation}},
+	author={Yen-Tung Yeh, Bo-Yu Chen, and Yi-Hsuan Yang},
+	booktitle = {Proc. Int. Society for Music Information Retrieval Conf.},
+	year={202},
+}
 ```
