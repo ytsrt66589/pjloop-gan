@@ -67,7 +67,8 @@ def generate(args, g_ema, device, mean_latent):
 
             de_norm = sample.squeeze(0) * std + mean
             audio_output = vocoder(de_norm)
-            sf.write(f'{args.store_path}/{i}.wav', audio_output.squeeze().detach().cpu().numpy(), sr)
+            p = np.full((1280, ), 1e-8)
+            sf.write(f'{args.store_path}/{i}.wav', np.concatenate((audio_output.squeeze().detach().cpu().numpy(), p), axis=None), sr)
             print('generate {}th wav file'.format(i))
 
 if __name__ == "__main__":
