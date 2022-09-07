@@ -8,7 +8,7 @@ Authors: [Yen-Tung Yeh](https://arthurddd.github.io/), [Bo-Yu Chen](https://paul
 
 * We provide pre-trained models to generate drum loops and synth loops.
 
-[Paper]() | [Demo](https://arthurddd.github.io/PjLoopGAN/)
+[Paper](https://arxiv.org/pdf/2209.01751.pdf) | [Demo](https://arthurddd.github.io/PjLoopGAN/)
 
 ## Environment
 ```
